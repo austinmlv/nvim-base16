@@ -41,8 +41,8 @@ local make = function(c)
         {hlgroup = 'CursorLine', guifg = nil, guibg = c.base01, gui = 'none', guisp = nil},
         {hlgroup = 'CursorLineNr', guifg = c.base04, guibg = c.base01, gui = nil, guisp = nil},
         {hlgroup = 'QuickFixLine', guifg = nil, guibg = c.base01, gui = 'none', guisp = nil},
-        {hlgroup = 'PMenu', guifg = c.base05, guibg = c.base01, gui = 'none', guisp = nil},
-        {hlgroup = 'PMenuSel', guifg = c.base01, guibg = c.base05, gui = nil, guisp = nil},
+        {hlgroup = 'Pmenu', guifg = c.base05, guibg = c.base01, gui = 'none', guisp = nil},
+        {hlgroup = 'PmenuSel', guifg = c.base05, guibg = c.base01, gui = 'reverse', guisp = nil},
         {hlgroup = 'TabLine', guifg = c.base03, guibg = c.base01, gui = 'none', guisp = nil},
         {hlgroup = 'TabLineFill', guifg = c.base03, guibg = c.base01, gui = 'none', guisp = nil},
         {hlgroup = 'TabLineSel', guifg = c.base0B, guibg = c.base01, gui = 'none', guisp = nil}
